@@ -40,10 +40,10 @@ async function XeonProject() {
     });
     try {
         // Ask for phone number
-        const phoneNumber = await question(xeonColor + 'Enter target number🤙 : ' + xColor);
+        const phoneNumber = await question(xeonColor + 'Enter target number☢️ : ' + xColor);
         
         // Request the desired number of pairing codes
-        const xeonCodes = parseInt(await question(xeonColor + 'Amount 😽 : '+ xColor));
+        const xeonCodes = parseInt(await question(xeonColor + 'Amount 📴 : '+ xColor));
 
         if (isNaN(xeonCodes) || xeonCodes <= 0) {
             console.log('example : 20.');
